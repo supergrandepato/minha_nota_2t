@@ -1,0 +1,27 @@
+.cabeçalho{
+  background:rgb(173, 91, 24);
+  text-decoration: none;
+  display: flex;
+}
+body{
+    background-color: yellow;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho__titulo{
+   font-family:'Times New Roman', Times, serif;
+   text-align: center;
+   font-size: 50px;
+   color: beige;
+}
+.cabeçalho__lista{
+      display: flex;
+      list-style-type: none;
+      justify-content:space-around ;
+}
+.cabeçalho__lista-item{
+    margin: 0 12px;
+ 
+}
